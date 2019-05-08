@@ -24,14 +24,13 @@ Content Pack includes:
   !!! NOTE END !!!
 - Default input port is 1515
 
-------------------------------------------------------
+
 Cisco syslog config example:
 logging origin-id ip
 logging source-interface <interface>
 logging host <graylog-server> transport udp port 1515
-------------------------------------------------------
+
 
 Happy logging,
 
-/Ville (hraleinonen(a-t)gmail.com)
-
+/Ville
