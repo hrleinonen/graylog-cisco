@@ -19,16 +19,16 @@ Content Pack includes:
   * 10 Least Common MSG 1 Day
   * 10 Most Common MSG 1 Day
   * Number of Messages per hour
-  !!! NOTE START !!!
+  **** NOTE START ****
   * Edit search query source if needed, default is "gl2_source_input:5cc199348a66df5bf971ef41"
-  !!! NOTE END !!!
+  **** NOTE END ****
 - Default input port is 1515
 
 
 Cisco syslog config example:
-logging origin-id ip
-logging source-interface <interface>
-logging host <graylog-server> transport udp port 1515
+#logging origin-id ip
+#logging source-interface <interface>
+#logging host <graylog-server> transport udp port 1515
 
 Happy logging,
 
